@@ -2,4 +2,7 @@
 
 console.log('hola, creando app de node');
 
-require('./src/js-bases/template-email');
+const {emailTemplate} = require('./src/js-bases/template-email');
+
+console.log(emailTemplate);
+
